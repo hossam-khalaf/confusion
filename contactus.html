@@ -135,8 +135,120 @@
         <div class="col-12">
           <h3>Send us your Feedback</h3>
         </div>
-        <div class="col-12 col-md-9">
-          Form goes here
+        <div class="col-12 col-lg-9">
+          <form action="#">
+            <div class="form-group row">
+              <label for="firstname" class="col-lg-2 col-form-label"
+                >First Name</label
+              >
+              <div class="col-md-10">
+                <input
+                  type="text"
+                  id="firstname"
+                  class="form-control"
+                  name="firstname"
+                  placeholder="First Name"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="lastname" class="col-lg-2 col-form-label"
+                >Last Name</label
+              >
+              <div class="col-md-10">
+                <input
+                  type="text"
+                  id="lastname"
+                  class="form-control"
+                  name="lastname"
+                  placeholder="Last Name"
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="telnum" class="col-12 col-lg-2 col-form-label"
+                >Contact tel.
+              </label>
+              <div class="col-5 col-md-3">
+                <input
+                  type="tel"
+                  id="areacode"
+                  class="form-control"
+                  name="areacode"
+                  placeholder="Area Code"
+                />
+              </div>
+              <div class="col-7 col-md-7">
+                <input
+                  type="tel"
+                  id="telnum"
+                  class="form-control"
+                  name="telnum"
+                  placeholder="Tel. Number"
+                />
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label for="emailid" class="col-lg-2 col-form-label"
+                >Your Email</label
+              >
+              <div class="col-md-10">
+                <input
+                  type="email"
+                  id="emailid"
+                  class="form-control"
+                  name="emailid"
+                  placeholder="Your Email"
+                />
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-lg-6 offset-lg-2">
+                <div class="form-ceck">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="approve"
+                    id="approve"
+                    value=""
+                  />
+                  <label for="approve" class="form-check-label"
+                    ><strong>May we contact you</strong>
+                  </label>
+                </div>
+              </div>
+              <div class="col-lg-3 offset-lg-1">
+                <select class="form-control">
+                  <option>Tel.</option>
+                  <option>Email</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label for="feedback" class="col-lg-2 col-form-label"
+                >Your Feedback</label
+              >
+              <div class="col-md-10">
+                <textarea
+                  id="feedback"
+                  class="form-control"
+                  name="feedback"
+                  rows="8"
+                >
+                </textarea>
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="offset-lg-2 col-lg-10">
+                <button type="submit" class="btn btn-primary">
+                  Send Feedback
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
         <div class="col-12 col-md"></div>
       </div>
