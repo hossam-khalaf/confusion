@@ -79,19 +79,19 @@ body {
   z-index: 5;
 }
 
-// .modal-header {
-//   background-color: $background-dark;
-//   .modal-title {
-//     color: floralwhite;
-//   }
-//   .close {
-//     color: floralwhite;
-//     &:hover {
-//       color: $background-pale !important;
-//     }
-//   }
-// }
+.modal-header {
+  background-color: $background-dark;
+  .modal-title {
+    color: floralwhite;
+  }
+  .close {
+    color: floralwhite;
+    &:hover {
+      color: $background-pale !important;
+    }
+  }
+}
 
-// .modal-body {
-//   background-color: $background-pale;
-// }
+.modal-body {
+  background-color: $background-pale;
+}
